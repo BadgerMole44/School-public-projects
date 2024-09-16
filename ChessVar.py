@@ -1475,7 +1475,36 @@ class ChessVar:
 
 
 def main():
-    pass
+    game = ChessVar()
+    print(game.get_game_state())
+    game.make_move('d2','d4')
+    game.make_move('e7', 'e5')
+    game.make_move('d1', 'd3')
+    game.make_move('e5', 'd4')
+    game.make_move('c1', 'f4')
+    game.make_move('a7', 'a5')
+    game.make_move('g1', 'h3')
+    game.make_move('h7', 'h5')
+    game.make_move('h3', 'g5')
+    game.make_move('h8', 'h6')
+    game.make_move('g5', 'h7')
+    game.enter_fairy_piece('f','a7')
+    game.make_move('h6', 'd6')
+    game.make_move('d3', 'd4')
+    game.make_move('d8', 'f6')
+    game.make_move('d4', 'd6')
+    game.enter_fairy_piece('f','e7')
+    game.make_move('b1', 'a3')
+    game.make_move('e7', 'd6')
+    game.make_move('a1', 'd1')
+    game.make_move('d6', 'f4')
+    game.make_move('d1', 'd5')
+    game.make_move('f4', 'f5')
+    game.make_move('c2', 'c4')
+
+
+    game.display_board()
+
 
 if __name__ == '__main__':
     main()
