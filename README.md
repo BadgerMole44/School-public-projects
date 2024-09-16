@@ -1,5 +1,14 @@
 # portfolio-project
+## Purpose
+This project is intendend to demonstrate what I've learned about object-oriented programming in CS 161 and 162 at Oregon State university via a variation of a game of chess.
+The rules of the game are described in the **Given Directions** section. This was my first fun OOP project.
+## Approach
+A game of chess has three components:
+- The **ChessPiece**: The Piece is the first object. All pieces have a color, a starting positon, and a current positon. Each type of piece has a name and specific set of moves. These subclasses inherit from the ChessPiece class.
+- The **ChessBoard**: The board is the second object. A board is composed of a grid of positons that can contain pieces, a board can be set and reset, and captured pieces reside off of the board.
+- The **ChessVar** Game: The game itself is the last object. The game is composed of the board and pieces, tracks who's turn it is, moves pieces, and declares a winner. All interactions with the pieces and board are interfaced through the game.
 
+## Given Directions
 **Remember that this project cannot be submitted late.**
 
 Write a class named **ChessVar** for playing an abstract board game that is a variant of chess. The following explanation of the rules assumes some familiarity with the rules of chess - specifically how the pieces move and capture. If you have any questions about those rules, please don't hesitate to ask.
