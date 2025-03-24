@@ -1,0 +1,78 @@
+body{
+    background-color: rgba(126,161,196, .9);
+}
+header{
+    text-align: center;
+    background-color: rgb(108,128,156, .5);
+    margin: auto;
+    width: 700px;
+    border-radius: 4px;
+    
+
+}
+nav{
+    text-align: center;
+    width: 900px;
+    height:auto;
+    border-color: black;
+    margin: auto;
+    
+}
+main{
+    text-align: center;
+    background-color:rgb(108,128,156, .2); 
+    
+}
+p{
+    
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    width: 800px;
+    padding: auto;
+    border-radius: 5px;
+}
+table{
+    text-align: center;
+    margin: auto;
+    border-radius: 4px;
+}
+form{
+    margin: auto;
+    border: none;
+}
+footer{
+    text-align: center;
+}
+button{
+    border-color: black;
+}
+button:hover{
+    background-color: grey;
+}
+div{
+    
+    margin: auto;
+    width: 500px;
+    height: auto;
+    border: black;
+    
+}
+a{
+    margin: auto;
+    display: inline-block;
+    background-color: aliceblue;
+    border-radius: 5px;
+    color: black;
+    border: 1px;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+a:hover{
+    color:gray;
+    text-decoration: underline;
+}
+nav a:visited{
+    color: rgba(100,121,140, .9);
+}
